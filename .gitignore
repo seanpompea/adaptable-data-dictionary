@@ -1,0 +1,84 @@
+#######################
+#        every        #
+#######################
+#    paste this at    #
+#      top of         #
+#    .gitignore       #
+#    regardless of    #
+#    of language.     #
+#######################
+
+# private/sensitve config, pki, etc.
+enclave/
+*.jks
+*.pem
+*.key
+*.pfx
+*.p12
+
+# data-related files
+*.csv
+*.dat
+*.txt
+*.tmp
+*.tsv
+*.xml
+*.json
+*.edn           # clojure edn / extensible data notation
+*.dat
+*.data
+*.xls           # excel
+*.xlsx          # excel
+*.xlsm          # excel
+*.xlsb          # excel
+*.gnumeric
+*.ods           # libreoffice spreadsheet
+*.mdb           # access
+*.accdb         # access
+*.laccdb        # access
+*.accda         # access
+*.adp           # access project
+*.db            # dbm, sqlite
+*.sqlite
+*.sqlite3
+
+# various temp / output files
+*.cache
+*.bak
+*.bkp
+.\#*
+._*
+*.o
+*.so
+\#*\#
+*.out           # gcc-generated binary
+
+# logs
+log/
+logs/
+*.log
+
+# a typical config might use these dirs.
+archive/
+inbox/
+out/
+data/
+cuttingfloor/
+cutting-floor/
+
+# vim
+*~
+*.swp
+*.swo
+
+# system files
+.DS_Store
+Thumbs.db
+thumbs.db
+Desktop.ini
+desktop.ini
+__MACOSX/
+
+# Include just the ADAPTABLE data dictionary csv.
+!adaptable-data-dictionary.csv
+
